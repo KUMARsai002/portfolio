@@ -470,7 +470,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 5px;
   position: relative;
 }
 
@@ -596,6 +596,15 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+.about-profile {
+  height: 620px;
+}
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
